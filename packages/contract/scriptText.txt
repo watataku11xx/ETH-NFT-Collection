@@ -1,0 +1,3 @@
+rootから下記コマンドで、ワークスペース内のスクリプトを可能
+
+npm run deploy -w packages/contract

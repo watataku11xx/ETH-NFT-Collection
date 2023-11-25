@@ -20,5 +20,8 @@
     "deploy": "npx hardhat run scripts/deploy.js",
     "deploy:sepolia": "npx hardhat run scripts/deploy.js --network sepolia",
     "test": "npx hardhat test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2"
   }
 }
