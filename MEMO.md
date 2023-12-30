@@ -5,8 +5,5 @@
 npm run deploy -w packages/contract
 ```
 
-## コントラクトID
-0x463711EcDfaF7243D032Dc9fe9c710044e16b7e4
-
 ## 参考文献
 [Markdown記法一覧](https://qiita.com/oreo/items/82183bfbaac69971917f)

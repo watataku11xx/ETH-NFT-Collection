@@ -11,7 +11,7 @@ contract MyEpicNFT is ERC721URIStorage{
       console.log("This is my NFT contract.");
     }
     
-    function makeAnEpicNFT() public {
+    function makeAnEpikNFT() public {
         _tokenIds.increment();
         uint256 newItemd = _tokenIds.current();
         _safeMint(msg.sender, newItemd);
