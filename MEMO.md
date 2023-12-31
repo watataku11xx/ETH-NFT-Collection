@@ -1,7 +1,7 @@
 ## WorkSpaceの使い方
 
 ### rootからpackage/contractのscript実行方法
-```
+```bash
 npm run deploy -w packages/contract
 ```
 
@@ -21,3 +21,5 @@ npm run deploy -w packages/contract
 [alchemy](https://www.alchemy.com/)
 
 [Etherscan(Sepolia)](https://sepolia.etherscan.io/)
+
+[SVG Viewer](https://www.svgviewer.dev/)
