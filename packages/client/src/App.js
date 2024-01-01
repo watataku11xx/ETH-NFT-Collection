@@ -71,7 +71,7 @@ const App = () => {
 
   const askContractToMintNft = async () => {
     const CONTRACT_ADDRESS =
-      "0x4556Fba1Cb124e694E90752D2a9789D4c85f4Ec4";
+      "0xcAFaE89590A2DdB00b2A002cE6cB37012C598055";
     try {
       const { ethereum } = window;
       if (ethereum) {

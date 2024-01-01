@@ -12,6 +12,8 @@ npm run deploy -w packages/contract
 0xB2DF50fFD30AC9c4AAA5E864A6c2519209c8Cd99
 ### ランダムSQUARE(SVG画像)
 0x4556Fba1Cb124e694E90752D2a9789D4c85f4Ec4
+### ランダムSQUARE(SVG画像, EVENT)
+0xcAFaE89590A2DdB00b2A002cE6cB37012C598055
 
 ## 参考文献
 [Markdown記法一覧](https://qiita.com/oreo/items/82183bfbaac69971917f)
