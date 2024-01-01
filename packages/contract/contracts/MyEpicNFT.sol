@@ -30,9 +30,11 @@ contract MyEpicNFT is ERC721URIStorage {
     string[] firstWords = ["Epic", "Fantastic", "Crude", "Crazy", "Hysterical", "Grand"];
     string[] secondWords = ["Meta", "Live", "Pop", "Cute", "Sweet", "Hot"];
     string[] thirdWords = ["Kitten", "Puppy", "Monkey", "Bird", "Panda", "Elephant"];
+
+    event NewEpicNFTMinted(address sender, uint256 tokenId);
     // NFT トークンの名前とそのシンボルを渡します。
     constructor() ERC721 ("SquareNFT", "SQUARE") {
-      console.log("This is my NFT contract.");
+        console.log("This is my NFT contract.");
     }
 
     // シードを生成する関数を作成します。
@@ -91,7 +93,7 @@ contract MyEpicNFT is ERC721URIStorage {
         string memory finalSvg = string(abi.encodePacked(baseSvg, combinedWord, "</text></svg>"));
 
 	      // NFTに出力されるテキストをターミナルに出力します。
-	      console.log("\n----- SVG data -----");
+        console.log("\n----- SVG data -----");
         console.log(finalSvg);
         console.log("--------------------\n");
 
@@ -129,5 +131,7 @@ contract MyEpicNFT is ERC721URIStorage {
 
         // NFTがいつ誰に作成されたかを確認します。
         console.log("An NFT w/ ID %s has been minted to %s", newItemId, msg.sender);
+
+        emit NewEpicNFTMinted(msg.sender, newItemId);
     }
 }
